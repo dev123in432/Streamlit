@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 
 # maths times table creator
 

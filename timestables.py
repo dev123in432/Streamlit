@@ -11,7 +11,7 @@ st.title('times tables')
 for table in tables:
     heading=("%d times table" % (table))
     seperator= "-" * len(heading)
-    #print("%d times table" % (table))
+    st.text("%d times table" % (table))
     #print("\n\n")
     #print(seperator)
     #print(heading)

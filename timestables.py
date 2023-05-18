@@ -11,13 +11,13 @@ st.title('times tables')
 for table in tables:
     heading=("%d times table" % (table))
     seperator= "-" * len(heading)
-    st.text("%d times table" % (table))
-    #print("\n\n")
-    #print(seperator)
-    #print(heading)
-    #print(seperator)
+    #st.text("%d times table" % (table))
+    #("\n\n")
+    st.text(seperator)
+    st.text(heading)
+    st.text(seperator)
     # print out rows forbthis times table
     for n in range(1, totalrows+1):
       answer=table * n
-      #print("%d x %d = %d" % (table,n,answer))
-      st.text("answer")
+      st.text("%d x %d = %d" % (table,n,answer))
+      #st.text("answer")
